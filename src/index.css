@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Coda|Open+Sans:400,700');
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans';
+}
+
+.header {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  background-image: linear-gradient(-15deg, #0f2027, #203a43, #2c5364);
+  margin-bottom: 80px;
+}
+
+.header__title {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  line-height: 300px;
+  text-align: center;
+}
+
+.paragraph {
+  max-width: 555px;
+  padding: 0 25px;
+  margin: 1.75em auto;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+#timeline-container {
+  position: relative;
+  height: 3000px;
+}
+
+.text-box__wrap {
+  width: 100vw;
+  margin: auto;
+  z-index: 1000;
+  position: absolute;
+}
+
+.text-box__inner {
+  background: white;
+  padding: 10px;
+  border: 1px solid black;
+  display: inline-block;
+  box-shadow: 0px 4px 8px rgba(0,0,0,.2)
+}
+
+.text-box__title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.inputs {
+  position: absolute;
+  right: 0;
+  width: calc(50vw - 140px);
+}
+
+.calculator {
+  position: relative;
+  width: calc(100vw - 280px);
+  height: 50vh;
+  margin: auto;
+}
+
+.input {
+  float: right;
+  border: 1px solid black;
+}
+
+#price-chart {
+  position: absolute;
+  left: 0;
+}
+
+.input__row {
+  margin-bottom: 15px;
+}
+
+.input__label {
+  font-weight: 700;
+  font-size: 13px;
+  margin-bottom: 4px;
+}
+
+.text-input {
+  font-size: 16px;
+  padding: 5px;
+}
+
+.range-input {
+  position: relative;
+  top: 2px;
+  float: right;
+}
+
+.input__result {
+  font-size: 16px;
+}
